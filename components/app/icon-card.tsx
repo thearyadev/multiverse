@@ -14,14 +14,14 @@ interface IconCardProps {
 
 export function IconCard({ icon: Icon, title, description, buttonText, href, imageSrc }: IconCardProps) {
   return (
-    <Card className="flex flex-col items-center text-center border-none">
+    <Card className="flex flex-col items-center text-center">
       <CardHeader className="relative w-full h-52 p-0 overflow-hidden">
         <Image 
           src={imageSrc} 
           alt={title} 
           fill 
           style={{objectFit: 'cover'}}
-          className="transition-transform duration-300 ease-in-out hover:scale-105"
+          className="transition-transform duration-300 ease-in-out hover:scale-105 rounded-t-lg"
         />
       </CardHeader>
       <CardContent className="pt-6">

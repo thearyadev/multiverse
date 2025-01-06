@@ -8,7 +8,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 import Link from "next/link";
-import { Briefcase, Book, Store, ArchiveRestore, Users } from "lucide-react";
+import { Briefcase, Book, Store, ArchiveRestore, Users, ArrowRightIcon } from "lucide-react";
 
 const pathways = [
   {
@@ -51,7 +51,7 @@ const pathways = [
     description: "Navigate the complexities of obtaining a work permit with our comprehensive support and resources.",
     imageSrc: "/pathways/express.jpg",
     href: "/family",
-    icon: Users
+    icon: ArrowRightIcon
   }
 ]
 

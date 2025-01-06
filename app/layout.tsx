@@ -35,7 +35,7 @@ export default function RootLayout({
         <Header />
         <ScreenSizeIndicator />
         {children}
-        <footer className="w-full bg-zinc-950 px-3 md:px-8 lg:px-28 flex flex-wrap justify-center space-x-8">
+        <footer className="w-full bg-zinc-950 px-3 md:px-8 lg:px-28 flex flex-wrap justify-center md:space-x-8">
           <div className="w-full md:w-auto flex justify-center">
             <Image
               className="w-96"
@@ -72,7 +72,7 @@ export default function RootLayout({
 
 
           </div>
-          <div className="py-8 flex space-x-4">
+          <div className="py-8 grid grid-cols-4 gap-4">
             <SocialIcon url="https://twitter.com" />
             <SocialIcon url="https://facebook.com" />
             <SocialIcon url="https://linkedin.com" />
