@@ -4,7 +4,6 @@ import "./globals.css";
 import { Header } from "@/components/app/header";
 import ScreenSizeIndicator from "@/components/app/ssi";
 import Image from "next/image";
-import { SewingPinFilledIcon } from "@radix-ui/react-icons";
 import { MailIcon, PhoneIcon, MapPinIcon } from "lucide-react";
 import { SocialIcon } from "react-social-icons";
 

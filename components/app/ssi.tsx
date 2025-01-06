@@ -12,12 +12,10 @@ function mapPxToSize(px: number): string {
         .map(([label, size]) => ({ label, size }))
         .sort((a, b) => Number(a.size) - Number(b.size));
 
-    // @ts-ignore
     if (px < Number(breakpoints[0].size)) {
         return "default";
     }
 
-    // @ts-ignore
     let screenSize = breakpoints[0].label; // Default to the smallest size
 
     breakpoints.forEach((breakpoint) => {
@@ -30,7 +28,7 @@ function mapPxToSize(px: number): string {
 }
 
 interface Color {
-    [key: string]: any;
+    [key: string]: string;
 }
 
 const colorMapping: Color = {

@@ -1,7 +1,6 @@
 import { CtaBanner } from "@/components/app/ctaBanner";
 import { Hero } from "@/components/app/hero";
 import { IconCard } from "@/components/app/icon-card";
-import { ProgramCard } from "@/components/app/program-card";
 import {
   Accordion,
   AccordionContent,
@@ -9,7 +8,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 import Link from "next/link";
-import { Plus, Briefcase, Book, Store, ArchiveRestore, Users } from "lucide-react";
+import { Briefcase, Book, Store, ArchiveRestore, Users } from "lucide-react";
 
 const pathways = [
   {
