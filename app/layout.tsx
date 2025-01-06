@@ -36,13 +36,16 @@ export default function RootLayout({
         <ScreenSizeIndicator />
         {children}
         <footer className="w-full bg-zinc-950 px-3 md:px-8 lg:px-28 flex flex-wrap justify-center space-x-8">
-          <Image
-            className="w-full sm:w-auto"
-            src="/stacked_logo.png"
-            alt="Logo"
-            width={300}
-            height={300}
-          />
+          <div className="w-full md:w-auto flex justify-center">
+            <Image
+              className="w-96"
+              src="/stacked_logo.png"
+              alt="Logo"
+              width={300}
+              height={300}
+            />
+          </div>
+
           <div className="text-white">
             <div className="py-8 flex flex-col space-y-3">
               <h3 className="text-2xl font-extrabold py-3 px-2">Get In Touch</h3>
@@ -74,9 +77,6 @@ export default function RootLayout({
             <SocialIcon url="https://facebook.com" />
             <SocialIcon url="https://linkedin.com" />
             <SocialIcon url="https://instagram.com" />
-
-
-
           </div>
           <div className="w-full text-white text-center py-2 text-sm">
             2024 Multiverse Immigration Consultancy Inc. All rights reserved.
