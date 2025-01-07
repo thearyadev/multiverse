@@ -19,13 +19,16 @@ export function Header() {
   return (
     <header className="py-4 px-6 bg-zinc-950 md:flex justify-between items-center align-middle">
       <div className="flex w-full md:w-auto justify-center ">
-        <Image
+        <Link href="/" prefetch>
+                  <Image
           className="mb-4 md:mb-0 max-h-14 md:max-h-16 w-auto"
           src="/logo.png"
           alt="Logo"
           width={300}
           height={300}
         />
+
+        </Link>
       </div>
       <div className="flex justify-center w-full">
         <NavigationMenu />

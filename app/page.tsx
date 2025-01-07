@@ -105,20 +105,20 @@ export default function Index() {
                 How long does it take to process my application?
               </AccordionTrigger>
               <AccordionContent>
-                Processing time depends on several factors like the application type, country of application as well as how the application was done, i.e., online or paper. Visit <a className="text-blue underline" target="_blank" href="https://ircc.canada.ca/english/information/fees/fees.asp">ircc.canada.ca</a> for more information.
+                Processing time depends on several factors like the application type, country of application as well as how the application was done, i.e., online or paper. Visit <a className="text-blue-500 underline" target="_blank" href="https://ircc.canada.ca/english/information/fees/fees.asp">ircc.canada.ca</a> for more information.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3">
               <AccordionTrigger>What are processing fees?</AccordionTrigger>
               <AccordionContent>
-                Most applications include processing fees. Exact processing fees may vary depending on the type of the application, among other factors. Visit <a className="text-blue underline" target="_blank" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-processing-times.html">canada.ca</a> for more information.
+                Most applications include processing fees. Exact processing fees may vary depending on the type of the application, among other factors. Visit <a className="text-blue-500 underline" target="_blank" href="https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-processing-times.html">canada.ca</a> for more information.
 
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4">
               <AccordionTrigger>How can I hire a foreign worker?</AccordionTrigger>
               <AccordionContent>
-                Canadian employers can hire foreign workers to fill temporary jobs when qualified Canadians are not available under The Temporary Foreign Worker (TFW) Program. This program is regulated through the Immigration and Refugee Protection Act and the Immigration and Refugee Protection Regulations and is administered in partnership with Immigration, Refugees and Citizenship Canada (IRCC) and the Canada Border Services Agency (CBSA). Learn more <a href="/employers" className="text-blue underline">here</a>
+                Canadian employers can hire foreign workers to fill temporary jobs when qualified Canadians are not available under The Temporary Foreign Worker (TFW) Program. This program is regulated through the Immigration and Refugee Protection Act and the Immigration and Refugee Protection Regulations and is administered in partnership with Immigration, Refugees and Citizenship Canada (IRCC) and the Canada Border Services Agency (CBSA). Learn more <a href="/employers" className="text-blue-500 underline">here</a>
 
               </AccordionContent>
             </AccordionItem>
