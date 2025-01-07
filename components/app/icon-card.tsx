@@ -32,7 +32,7 @@ export function IconCard({ icon: Icon, title, description, buttonText, href, ima
           </div>
           <CardTitle className="text-xl mb-2">{title}</CardTitle>
           <CardDescription className="mb-4">{description}</CardDescription>
-          <Button asChild>
+          <Button>
             {buttonText}
           </Button>
         </CardContent>
