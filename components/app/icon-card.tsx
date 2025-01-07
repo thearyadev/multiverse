@@ -28,11 +28,11 @@ export function IconCard({ icon: Icon, title, description, buttonText, href, ima
         </CardHeader>
         <CardContent className="pt-6">
           <div className="rounded-full bg-primary/10 p-4 mb-4 inline-block">
-            <Icon className="h-8 w-8 text-yellow-700" />
+            <Icon className="h-8 w-8 text-yellow-600" />
           </div>
           <CardTitle className="text-xl mb-2">{title}</CardTitle>
           <CardDescription className="mb-4">{description}</CardDescription>
-          <Button>
+          <Button className="hover:bg-gradient-to-r from-yellow-300 to-amber-500 ">
             {buttonText}
           </Button>
         </CardContent>

@@ -1,10 +1,10 @@
 import { ChevronRightIcon } from "@radix-ui/react-icons";
 export function CtaBanner({ href }: { href: string }) {
   return (
-    <div className="bg-yellow-500 py-4">
+    <div className="bg-yellow-500 py-4 bg-gradient-to-r from-yellow-300 to-amber-500">
       <a
         href={href}
-        className="text-white flex w-full justify-center items-center hover:underline"
+        className="text-white flex w-full justify-center items-center hover:underline "
       >
         <p className="text-lg text-white font-bold">Request a Free Evalution</p>
 
