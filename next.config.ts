@@ -7,6 +7,12 @@ const nextConfig: NextConfig = {
   output: "export",
   images: {
     unoptimized: true,
+  },
+  eslint: {
+    dirs: [
+      "app",
+      "components/app"
+    ]
   }
 };
 const withMDX = createMDX({})
