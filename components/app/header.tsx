@@ -20,21 +20,25 @@ export function Header() {
     <header className="py-4 px-6 bg-zinc-950 md:flex justify-between items-center align-middle">
       <div className="flex w-full md:w-auto justify-center ">
         <Link href="/" prefetch>
-                  <Image
-          className="mb-4 md:mb-0 max-h-14 md:max-h-16 w-auto"
-          src="/logo.png"
-          alt="Logo"
-          width={300}
-          height={300}
-        />
-
+          <Image
+            className="mb-4 md:mb-0 max-h-14 md:max-h-16 w-auto"
+            src="/logo.png"
+            alt="Logo"
+            width={300}
+            height={300}
+          />
         </Link>
       </div>
       <div className="flex justify-center w-full">
         <NavigationMenu />
       </div>
       <Link href="/evaluation">
-              <Button variant="outline" className="border-yellow-400 bg-transparent text-yellow-400 hidden md:block hover:bg-yellow-400 hover:text-white">Apply Now</Button>
+        <Button
+          variant="outline"
+          className="border-yellow-400 bg-transparent text-yellow-400 hidden md:block hover:bg-yellow-400 hover:text-white"
+        >
+          Apply Now
+        </Button>
       </Link>
     </header>
   );

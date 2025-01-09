@@ -1,19 +1,32 @@
-import { LucideIcon } from 'lucide-react'
-import Image from 'next/image'
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import Link from "next/link"
+import { LucideIcon } from "lucide-react";
+import Image from "next/image";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 interface IconCardProps {
-  icon: LucideIcon
-  title: string
-  description: string
-  buttonText: string
-  href: string
-  imageSrc: string
+  icon: LucideIcon;
+  title: string;
+  description: string;
+  buttonText: string;
+  href: string;
+  imageSrc: string;
 }
 
-export function IconCard({ icon: Icon, title, description, buttonText, href, imageSrc }: IconCardProps) {
+export function IconCard({
+  icon: Icon,
+  title,
+  description,
+  buttonText,
+  href,
+  imageSrc,
+}: IconCardProps) {
   return (
     <Link href={href}>
       <Card className="flex flex-col items-center text-center group hover:shadow-lg transition-shadow duration-300 ease-in-out rounded-t-lg">
@@ -22,7 +35,7 @@ export function IconCard({ icon: Icon, title, description, buttonText, href, ima
             src={imageSrc}
             alt={title}
             fill
-            style={{ objectFit: 'cover' }}
+            style={{ objectFit: "cover" }}
             className="transition-transform duration-300 ease-in-out group-hover:scale-105 rounded-t-lg"
           />
         </CardHeader>
@@ -38,7 +51,5 @@ export function IconCard({ icon: Icon, title, description, buttonText, href, ima
         </CardContent>
       </Card>
     </Link>
-  )
+  );
 }
-
-

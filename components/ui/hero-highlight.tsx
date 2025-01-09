@@ -9,7 +9,7 @@ export const HeroHighlight = ({
   className,
   containerClassName,
   bgClassName,
-  src
+  src,
 }: {
   children: React.ReactNode;
   className?: string;
@@ -35,7 +35,7 @@ export const HeroHighlight = ({
     <div
       className={cn(
         "relative h-[40rem] flex items-center bg-white dark:bg-black justify-center w-full group",
-        containerClassName
+        containerClassName,
       )}
       onMouseMove={handleMouseMove}
     >
@@ -47,7 +47,6 @@ export const HeroHighlight = ({
           width={1920}
           height={800}
         />
-
       </div>
       <motion.div
         className="pointer-events-none bg-dot-thick-yellow-500 dark:bg-dot-thick-indigo-500   absolute inset-0 opacity-0 transition duration-300 group-hover:opacity-100"
@@ -101,7 +100,7 @@ export const Highlight = ({
       }}
       className={cn(
         "relative inline-block pb-1   px-1 rounded-lg bg-gradient-to-r from-yellow-300 to-amber-500",
-        className
+        className,
       )}
     >
       {children}

@@ -1,4 +1,4 @@
-import type { MDXComponents } from 'mdx/types'
+import type { MDXComponents } from "mdx/types";
 
 export function useMDXComponents(components: MDXComponents): MDXComponents {
   return {
@@ -11,14 +11,21 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     ul: (props) => <ul className="list-disc pl-6 mb-4" {...props} />,
     ol: (props) => <ol className="list-decimal pl-6 mb-4" {...props} />,
     li: (props) => <li className="mb-2" {...props} />,
-    img: (props) => <img className="rounded-lg w-full max-h-96 object-cover" {...props} />,
+    img: (props) => (
+      <img className="rounded-lg w-full max-h-96 object-cover" {...props} />
+    ),
     code: (props) => <code className="rounded-lg" {...props} />,
     pre: (props) => <pre className="rounded-lg" {...props} />,
     table: (props) => <table className="rounded-lg" {...props} />,
     th: (props) => <th className="p-2" {...props} />,
     td: (props) => <td className="p-2" {...props} />,
-    blockquote: (props) => <blockquote className="border-l-4 border-blue-500 pl-4 text-gray-700" {...props} />,
+    blockquote: (props) => (
+      <blockquote
+        className="border-l-4 border-blue-500 pl-4 text-gray-700"
+        {...props}
+      />
+    ),
     hr: (props) => <hr className="my-4" {...props} />,
     ...components,
-  }
+  };
 }

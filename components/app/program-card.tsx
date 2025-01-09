@@ -1,7 +1,4 @@
-import {
-  Card,
-  CardContent,
-} from "@/components/ui/card";
+import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 
 type ProgramCardProps = {
@@ -13,7 +10,7 @@ type ProgramCardProps = {
 
 export function ProgramCard(props: ProgramCardProps) {
   return (
-    <Card className="border-none shadow-none rounded-md max-w-[500px]"> 
+    <Card className="border-none shadow-none rounded-md max-w-[500px]">
       <CardContent className="p-0">
         <Image
           src={props.programImageSrc}
@@ -25,7 +22,9 @@ export function ProgramCard(props: ProgramCardProps) {
       </CardContent>
       <div className="p-2 pt-3">
         <h2 className="text-lg font-semibold">{props.programName}</h2>
-        <p className="text-sm text-gray-500 break-words">{props.programDiscription}</p> 
+        <p className="text-sm text-gray-500 break-words">
+          {props.programDiscription}
+        </p>
       </div>
     </Card>
   );
