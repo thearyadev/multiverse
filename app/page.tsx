@@ -13,48 +13,47 @@ import { Briefcase, Book, Store, ArchiveRestore, Users, ArrowRightIcon } from "l
 const pathways = [
   {
     name: "Work Permit",
-    description: "Navigate the complexities of obtaining a work permit with our comprehensive support and resources.",
+    description: "Obtain expert guidance on the application process and requirements to secure your work permit efficiently.",
     imageSrc: "/pathways/work.jpg",
     href: "/work",
     icon: Briefcase
   },
   {
     name: "Study Permit",
-    description: "Personalized assistance for securing study permits, helping you achieve your educational dreams.",
+    description: "Receive tailored support to meet the necessary criteria for obtaining a study permit and pursuing your educational aspirations.",
     imageSrc: "/pathways/study.jpg",
     href: "/study",
     icon: Book
   },
   {
     name: "Business Immigration",
-    description: "Consulting for businesses owners looking to expand their operations internationally.",
+    description: "Explore strategic consulting services for entrepreneurs looking to establish or expand their business internationally.",
     imageSrc: "/pathways/business.jpeg",
     href: "/business",
     icon: Store
   },
   {
     name: "Start-Up Visa",
-    description: "Navigate the complexities of obtaining a work permit with our comprehensive support and resources.",
+    description: "Get specialized assistance in applying for a Start-Up Visa to launch an innovative business in Canada or other destinations.",
     imageSrc: "/pathways/start-up.jpg",
-    href: "/start-up",
+    href: "/startup",
     icon: ArchiveRestore
   },
   {
     name: "Family Sponsorship",
-    description: "Navigate the complexities of obtaining a work permit with our comprehensive support and resources.",
+    description: "Understand the process and requirements for sponsoring family members to join you in the country, ensuring family reunification.",
     imageSrc: "/pathways/family.jpg",
     href: "/family",
     icon: Users
   },
   {
     name: "Express Entry",
-    description: "Navigate the complexities of obtaining a work permit with our comprehensive support and resources.",
+    description: "Learn about the Express Entry system and how to maximize your chances of receiving an invitation to apply for permanent residency.",
     imageSrc: "/pathways/express.jpg",
-    href: "/family",
+    href: "/express",
     icon: ArrowRightIcon
   }
-]
-
+];
 export default function Index() {
   return (
     <>
@@ -124,7 +123,7 @@ export default function Index() {
             </AccordionItem>
           </Accordion>
 
-          <p className="pt-5 text-center text-sm">More Questions? <Link className="hover:underline italic" href="/contact">Contact Us</Link></p>
+          <p className="pt-5 text-center text-sm">More Questions? <Link className="hover:underline italic" href="mailto:info@multiverseimmigration.ca">Contact Us</Link></p>
         </div>
       </div>
 
