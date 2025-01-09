@@ -60,7 +60,7 @@ const ScreenSizeIndicator = () => {
     <div
       className={`fixed top-0 z-40 flex pl-2 pr-2 text-white hover:hidden ${
         colorMapping[screenSize] || "bg-red-500"
-      }`}
+      } ${process.env.NODE_ENV === "production" ? "hidden" : ""}`}
     >
       <p className="font-bold italic">{screenSize.toUpperCase()}</p>{" "}
       <p className="pl-2 font-light italic text-gray-300">[{actualSize}px]</p>
