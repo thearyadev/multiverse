@@ -25,7 +25,7 @@ export default function RootLayout({
         <Header />
         <ScreenSizeIndicator />
         {children}
-        <footer className="bg-zinc-950 text-white">
+        <footer className="bg-zinc-950 text-white" id="footer">
           <div className="w-full px-3 md:px-8 lg:px-28 flex flex-wrap justify-center md:space-x-8">
 
             <div className="w-full md:w-auto flex justify-center">
@@ -43,22 +43,22 @@ export default function RootLayout({
                 <h3 className="text-2xl font-extrabold py-3 px-2">Get In Touch</h3>
                 <div className="flex items-center">
                   <MapPinIcon className="h-8 w-8 pr-2" />
-                  <p className="">
+                  <a href="https://maps.app.goo.gl/TwPqLXCeXgnrYPGn7" className="">
                     100 Consilium Place, Suite 200 Toronto, ON M1H 3E3
-                  </p>
+                  </a>
                 </div>
 
                 <div className="flex items-center">
                   <MailIcon className="h-8 w-8 pr-2" />
-                  <p className="">
+                  <a className="" href="mailto:info@multiverseimmigration.ca">
                     info@multiverseimmigration.ca
-                  </p>
+                  </a>
                 </div>
                 <div className="flex items-center">
                   <PhoneIcon className="h-8 w-8 pr-2" />
-                  <p className="">
+                  <a className="" href="tel:+14165875348">
                     +1 (416) 587-5348
-                  </p>
+                  </a>
                 </div>
               </div>
 
