@@ -22,7 +22,7 @@ const pathways = [
     name: "Work Permit",
     description:
       "Obtain expert guidance on the application process and requirements to secure your work permit efficiently.",
-    imageSrc: "/pathways/work.jpg",
+    imageSrc: "/pathways/work.webp",
     href: "/work",
     icon: Briefcase,
   },
@@ -30,7 +30,7 @@ const pathways = [
     name: "Study Permit",
     description:
       "Receive tailored support to meet the necessary criteria for obtaining a study permit and pursuing your educational aspirations.",
-    imageSrc: "/pathways/study.jpg",
+    imageSrc: "/pathways/study.webp",
     href: "/study",
     icon: Book,
   },
@@ -38,7 +38,7 @@ const pathways = [
     name: "Business Immigration",
     description:
       "Explore strategic consulting services for entrepreneurs looking to establish or expand their business internationally.",
-    imageSrc: "/pathways/business.jpeg",
+    imageSrc: "/pathways/business.webp",
     href: "/business",
     icon: Store,
   },
@@ -46,7 +46,7 @@ const pathways = [
     name: "Start-Up Visa",
     description:
       "Get specialized assistance in applying for a Start-Up Visa to launch an innovative business in Canada or other destinations.",
-    imageSrc: "/pathways/start-up.jpg",
+    imageSrc: "/pathways/start-up.webp",
     href: "/startup",
     icon: ArchiveRestore,
   },
@@ -54,7 +54,7 @@ const pathways = [
     name: "Family Sponsorship",
     description:
       "Understand the process and requirements for sponsoring family members to join you in the country, ensuring family reunification.",
-    imageSrc: "/pathways/family.jpg",
+    imageSrc: "/pathways/family.webp",
     href: "/family",
     icon: Users,
   },
@@ -62,7 +62,7 @@ const pathways = [
     name: "Express Entry",
     description:
       "Learn about the Express Entry system and how to maximize your chances of receiving an invitation to apply for permanent residency.",
-    imageSrc: "/pathways/express.jpg",
+    imageSrc: "/pathways/express.webp",
     href: "/express",
     icon: ArrowRightIcon,
   },

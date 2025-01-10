@@ -17,12 +17,12 @@ import { Button } from "../ui/button";
 
 export function Header() {
   return (
-    <header className="py-4 px-6 bg-zinc-950 md:flex justify-between items-center align-middle">
+    <header className="py-4 px-6 bg-zinc-950 md:flex justify-between items-center align-middle sticky top-0 z-50">
       <div className="flex w-full md:w-auto justify-center ">
         <Link href="/" prefetch>
           <Image
             className="mb-4 md:mb-0 max-h-14 md:max-h-16 w-auto"
-            src="/logo.png"
+            src="/logo.webp"
             alt="Logo"
             width={300}
             height={300}
@@ -65,7 +65,7 @@ export function NavigationMenu() {
                 <NavigationMenuLink asChild>
                   <a className="relative block h-full" href="/vacation">
                     <Image
-                      src="/vacation.png"
+                      src="/vacation.webp"
                       alt="Logo"
                       width={400}
                       height={600}
